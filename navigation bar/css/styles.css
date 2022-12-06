@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+li,a,button{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: azure;
+    text-decoration: none;
+}
+
+header{
+    background-color: #24252A;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:30 px 10%;
+}
+.logo{
+    cursor:pointer;
+    height:100px;
+    width:200px;
+}
+.nav_links {
+    list-style:none;
+    background-color: #24252A;
+}
+.nav_links li{
+    display:inline-block;
+
+}
+.nav_links li a{
+    transition:all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: aqua;
+} 
+button{
+    padding:9px 25px;
+    background-color: #608679;
+    border:cornsilk;
+    border-width: 50 px;
+    border-radius:30%;
+    cursor :pointer;
+    transition: all 0.3s eaase 0s;
+
+}
+button:hover,.logo:hover{
+    background-color: aquamarine;
+  
+    
+
+}
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+.hero
+{
+    height:100%;
+    width:100%;
+    background-image: linear-gradient(rgba(0,0,0.4),rgba(0,0,0,0.4)),url(banner.jpg);
+    background-position:center;
+    background-size: cover;
+    position:absolute;
+}
+.formbox{
+    width:380px;
+    height:480px;
+    position:relative;
+    margin:6% auto;
+    background:#fff;
+    padding :5px;
+    overflow:hidden;
+}
+.buttonbox{
+    width:220px;
+    margin:35px auto;
+    position:relative;
+    box-shadow:0 0 20 px 9 px #ff61241f;
+    border-radius:30px;
+
+}
+.toggle-btn{
+    padding:10px 30px;
+    cursor:pointer;
+    background:transparent;
+    border:0;
+    outline:none;
+    position:relative;
+
+}
+#btn{
+    top:0;
+    left:0;
+    position:absolute;
+    width:110 px;
+    height:100%;
+    background:linear-gradient(to right,#ff105f,#ffad06);
+    border-radius:30px;
+    transition:0.5s;
+}
+.social_icons{
+    margin:30px auto;
+    text-align:center;
+
+}
+.social-icons img{
+    width:30px;
+    margin:0 12px;
+    box-shadow:0 0 20 px 0 #7f7f7f3d;
+    cursor:pointer;
+    border-radius:50%;
+}
+.input-group{
+    top:180px;
+    position:absolute;
+    width:280px;
+    transition:.5s;
+}
+.input-field{
+     width:100%;
+     padding:10px 0;
+     margin:5px 0 ;
+     border:0;
+     border-bottom:1px solid#999;
+     outline:none;
+     background:transparent;
+
+}
+.submit-btn{
+    width:85%;
+    padding:10px 30 px;
+    cursor:pointer;
+    display:block;
+    margin:auto;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border:0;
+    outline:none;
+    border-radius:30px;
+
+}
+.check-box{
+    margin:30px 10px 30px 0;
+
+
+}
+span{
+    color:#777;
+    font-size:12px;
+    bottom:68px;
+    bottom:68px;
+    position:absolute;
+}
+#login{
+    left: 50px;
+}
+#signup{
+    left: 450px;
+}
